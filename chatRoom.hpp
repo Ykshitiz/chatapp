@@ -1,3 +1,7 @@
+
+#ifndef CHATROOM_HPP
+#define CHATROOM_HPP
+
 #include<iostream>
 #include <utility>   
 #include"message.hpp"
@@ -7,10 +11,6 @@
 #include<unistd.h>
 #include<boost/asio.hpp>
 #include<deque>
-
-#ifndef CHATROOM_HPP
-#define CHATROOM_HPP
-
 using boost::asio::ip::tcp;
 
 class Participant{
